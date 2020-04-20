@@ -7,7 +7,7 @@ namespace FindDuplicateImages {
 
 
         void Run() {
-            var rootDir = @"C:\Users\gpdou\OneDrive\Pictures\";
+            var rootDir = @"F:\CarboniteRestore\Pictures";
             var filesQueue = new Queue<string>();
             FindImageFiles(rootDir, filesQueue);
             // build dictionary of signatures with files
